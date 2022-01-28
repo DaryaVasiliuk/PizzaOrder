@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <title>HTML Forms</title>
+</head>
+<body>
+<section id="overlay">
+  <form action="" method="POST" name="pizza">
+    <h1>Пицца</h1>
+    <section class="variety">
+      <label for="variety">Какую пиццу вы бы хотели?</label>
+      <select name="variety" id="variety">
+        <option value="пепперони">Пепперони</option>
+        <option value="грибная">Грибная</option>
+        <option value="гавайская">Гавайская</option>
+        <option value="деревенская">Деревенская</option>
+      </select>
+      <section class="size">
+        <label for="size">Выберите размер</label>
+        <select name="size" id="size">
+          <option value="21">21см</option>
+          <option value="26">26см</option>
+          <option value="31">31см</option>
+          <option value="45">45см</option>
+        </select>
+      </section>
+      <section class="sauce">
+        <label for="sauce">Выберите соус</label>
+        <select name="sauce" id="sauce">
+          <option value="кисло-сладкий">Кисло-сладкий</option>
+          <option value="чесночный">Чесночный</option>
+          <option value="сырный">Сырный</option>
+          <option value="барбекю">Барбекю</option>
+        </select>
+        <section class="заказать">
+          <input type="submit" value="Заказать">
+        </section>
+      </section>
+  </form>
+  <div id="cheque"></div>
+  <script src="js.js"></script>
+</section>
+</body>
+</html>
